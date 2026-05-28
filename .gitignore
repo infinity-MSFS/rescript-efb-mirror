@@ -1,0 +1,8 @@
+node_modules/
+lib/
+.bsb.lock
+.merlin
+*.log
+.DS_Store
+DESIGN.md
+HANDOFF.md

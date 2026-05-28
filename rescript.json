@@ -1,0 +1,29 @@
+{
+  "name": "@infinity-msfs/rescript-efb-mirror",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "examples",
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "esmodule",
+      "in-source": false
+    }
+  ],
+  "suffix": ".res.mjs",
+  "dependencies": ["@rescript/react", "@rescript/core"],
+  "compiler-flags": ["-open RescriptCore"],
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "warnings": {
+    "error": "+101"
+  }
+}

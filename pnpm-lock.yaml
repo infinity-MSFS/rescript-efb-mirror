@@ -1,0 +1,162 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@infinity-msfs/rescript-msfs':
+        specifier: file:../rescript-msfs-hooks
+        version: file:../rescript-msfs-hooks(@rescript/core@1.6.1(rescript@12.3.0))(@rescript/react@0.15.0(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(rescript@12.3.0)
+      '@rescript/core':
+        specifier: ^1.6.1
+        version: 1.6.1(rescript@12.3.0)
+      '@rescript/react':
+        specifier: ^0.15.0
+        version: 0.15.0(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@rescript/runtime':
+        specifier: ^12.0.0
+        version: 12.3.0
+      react:
+        specifier: ^19.2.0
+        version: 19.2.6
+      react-dom:
+        specifier: ^19.2.0
+        version: 19.2.6(react@19.2.6)
+      rescript:
+        specifier: ^12.0.0
+        version: 12.3.0
+
+packages:
+
+  '@infinity-msfs/rescript-msfs@file:../rescript-msfs-hooks':
+    resolution: {directory: ../rescript-msfs-hooks, type: directory}
+    peerDependencies:
+      '@rescript/core': '>=1.6.0'
+      '@rescript/react': '>=0.15.0'
+      '@rescript/runtime': '>=12.0.0'
+      react: '>=19.2.0'
+      react-dom: '>=19.2.0'
+      rescript: '>=12.0.0'
+
+  '@rescript/core@1.6.1':
+    resolution: {integrity: sha512-vyb5k90ck+65Fgui+5vCja/mUfzKaK3kOPT4Z6aAJdHLH1eljEi1zKhXroCiCtpNLSWp8k4ulh1bdB5WS0hvqA==}
+    peerDependencies:
+      rescript: '>=11.1.0'
+
+  '@rescript/darwin-arm64@12.3.0':
+    resolution: {integrity: sha512-tw0E+XcpPoFj3KizsT5qS/5O/dILi0NBZAz5I8ONK+F43qcqDJDDO+Ise45rGoNWhjwt9WOerYnOd0eUe3U9GA==}
+    engines: {node: '>=20.11.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rescript/darwin-x64@12.3.0':
+    resolution: {integrity: sha512-dW2R31PpBvPjSy50mSd9zKOT3dFw/gKtsUZoML81fPuXPJh0h5rwu9z3S40UUUzOa68uKNxXcVLrG1RAgs20Bw==}
+    engines: {node: '>=20.11.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rescript/linux-arm64@12.3.0':
+    resolution: {integrity: sha512-4GImq346kefHtaMhruFxVwWmr2shWEGQzAGdgZzn5zNWFN32hOXnztHjSFUmj5gmK9fFbidx/oB3BwdbRp5QFQ==}
+    engines: {node: '>=20.11.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rescript/linux-x64@12.3.0':
+    resolution: {integrity: sha512-0bPcKI0M38EpoFbhLz2w8ZAY3oZ0GWChwcDn43AN2EAWGLiCORhLP6biqRDg37jK/Bh8Y0MhYzjNWIeHoEDINQ==}
+    engines: {node: '>=20.11.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@rescript/react@0.15.0':
+    resolution: {integrity: sha512-qDrrgxYzxRL/pjug617u5Q4+aqEfV5g+GQnd+eCWb0XqPrKucaDzN5rirDUZPg8UrqU/AvCP8Ev5cFd+MJx88A==}
+    peerDependencies:
+      '@rescript/runtime': '>=12.0.0'
+      react: '>=19.2.0'
+      react-dom: '>=19.2.0'
+
+  '@rescript/runtime@12.3.0':
+    resolution: {integrity: sha512-8SRM2f6+LaWach8NJjYQVCCmu6KYmJCb+437L7YpaUpJBDyUOC1x0FF75shZ/Gid9guKPF3zMHrTNHLuyQkkiQ==}
+
+  '@rescript/win32-x64@12.3.0':
+    resolution: {integrity: sha512-TM1aLfn8IJFi0/ztVwHqQOcmJg4jWFCmXjrIS9Tif+6Gx8NdX8ttommUscUghe+Dn2pI382FvqPPNWRUR3AI8g==}
+    engines: {node: '>=20.11.0'}
+    cpu: [x64]
+    os: [win32]
+
+  react-dom@19.2.6:
+    resolution: {integrity: sha512-0prMI+hvBbPjsWnxDLxlCGyM8PN6UuWjEUCYmZhO67xIV9Xasa/r/vDnq+Xyq4Lo27g8QSbO5YzARu0D1Sps3g==}
+    peerDependencies:
+      react: ^19.2.6
+
+  react@19.2.6:
+    resolution: {integrity: sha512-sfWGGfavi0xr8Pg0sVsyHMAOziVYKgPLNrS7ig+ivMNb3wbCBw3KxtflsGBAwD3gYQlE/AEZsTLgToRrSCjb0Q==}
+    engines: {node: '>=0.10.0'}
+
+  rescript@12.3.0:
+    resolution: {integrity: sha512-xdnpEoDNoeYjZ8HHATwKJEfWti1Nqwx266edfUC8378a5AO1VvZElj2ZZ/SIJNFgUnohH9yDThB+CHEQfijxKw==}
+    engines: {node: '>=20.11.0'}
+    hasBin: true
+
+  scheduler@0.27.0:
+    resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
+
+snapshots:
+
+  '@infinity-msfs/rescript-msfs@file:../rescript-msfs-hooks(@rescript/core@1.6.1(rescript@12.3.0))(@rescript/react@0.15.0(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6))(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(rescript@12.3.0)':
+    dependencies:
+      '@rescript/core': 1.6.1(rescript@12.3.0)
+      '@rescript/react': 0.15.0(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      '@rescript/runtime': 12.3.0
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+      rescript: 12.3.0
+
+  '@rescript/core@1.6.1(rescript@12.3.0)':
+    dependencies:
+      rescript: 12.3.0
+
+  '@rescript/darwin-arm64@12.3.0':
+    optional: true
+
+  '@rescript/darwin-x64@12.3.0':
+    optional: true
+
+  '@rescript/linux-arm64@12.3.0':
+    optional: true
+
+  '@rescript/linux-x64@12.3.0':
+    optional: true
+
+  '@rescript/react@0.15.0(@rescript/runtime@12.3.0)(react-dom@19.2.6(react@19.2.6))(react@19.2.6)':
+    dependencies:
+      '@rescript/runtime': 12.3.0
+      react: 19.2.6
+      react-dom: 19.2.6(react@19.2.6)
+
+  '@rescript/runtime@12.3.0': {}
+
+  '@rescript/win32-x64@12.3.0':
+    optional: true
+
+  react-dom@19.2.6(react@19.2.6):
+    dependencies:
+      react: 19.2.6
+      scheduler: 0.27.0
+
+  react@19.2.6: {}
+
+  rescript@12.3.0:
+    dependencies:
+      '@rescript/runtime': 12.3.0
+    optionalDependencies:
+      '@rescript/darwin-arm64': 12.3.0
+      '@rescript/darwin-x64': 12.3.0
+      '@rescript/linux-arm64': 12.3.0
+      '@rescript/linux-x64': 12.3.0
+      '@rescript/win32-x64': 12.3.0
+
+  scheduler@0.27.0: {}

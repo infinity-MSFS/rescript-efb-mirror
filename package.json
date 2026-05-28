@@ -1,0 +1,49 @@
+{
+  "name": "@infinity-msfs/rescript-efb-mirror",
+  "version": "0.1.0",
+  "description": "ReScript React library for building a single EFB that runs both in-sim and as a browser/iPad mirror. Pairs with infinity-manager's efb-server WS transport.",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "src",
+    "lib/es6",
+    "rescript.json",
+    "DESIGN.md",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean",
+    "watch": "rescript watch"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "msfs",
+    "efb",
+    "infinity-rs"
+  ],
+  "peerDependencies": {
+    "@infinity-msfs/rescript-msfs": ">=0.1.0",
+    "@rescript/core": ">=1.6.0",
+    "@rescript/react": ">=0.15.0",
+    "@rescript/runtime": ">=12.0.0",
+    "react": ">=19.2.0",
+    "react-dom": ">=19.2.0",
+    "rescript": ">=12.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@infinity-msfs/rescript-msfs": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@infinity-msfs/rescript-msfs": "file:../rescript-msfs-hooks",
+    "@rescript/core": "^1.6.1",
+    "@rescript/react": "^0.15.0",
+    "@rescript/runtime": "^12.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "rescript": "^12.0.0"
+  }
+}
