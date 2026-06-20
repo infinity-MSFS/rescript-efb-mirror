@@ -6,6 +6,7 @@ type location = {
   protocol: string,
   host: string,
   href: string,
+  search: string,
 }
 
 @val external location: location = "window.location"

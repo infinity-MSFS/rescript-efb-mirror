@@ -6,11 +6,15 @@
   "type": "module",
   "files": [
     "src",
-    "lib/es6",
     "rescript.json",
     "DESIGN.md",
     "README.md"
   ],
+  "exports": {
+    "./src/*.res.mjs": "./src/*.res.mjs",
+    "./package.json": "./package.json",
+    "./rescript.json": "./rescript.json"
+  },
   "scripts": {
     "build": "rescript",
     "clean": "rescript clean",
